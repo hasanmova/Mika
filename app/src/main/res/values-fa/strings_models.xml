@@ -193,4 +193,7 @@
     <string name="speech_footer">فقط مدل‌هایی که شبیه مدل گفتار هستند فهرست می‌شوند. اگر مدل شما نیست، نام آن را وارد کنید؛ هنگام انتخاب، یک نمونهٔ کوتاه برای آزمون پیاده می‌شود.</string>
     <string name="speech_pick_failed">این مدل نتوانست گفتار را به متن تبدیل کند: %1$s</string>
     <string name="speech_pick_timeout">%1$s ظرف %2$d ثانیه به نمونهٔ آزمایشی پاسخ نداد</string>
+    <string name="models_daily_token_budget">سقف توکن روزانه</string>
+    <string name="models_daily_token_budget_save_failed">سقف ذخیره نشد. تنظیم قبلی همچنان فعال است.</string>
+    <string name="models_daily_token_budget_sub">تمام مدل‌ها و کاربردهای این ارائه‌دهنده را در روز تقویمی محلی می‌شمارد. فقط توکن‌های ورودی و خروجی گزارش‌شده حساب می‌شوند. با رسیدن به سقف، درخواست بعدی مسدود می‌شود؛ درخواست‌های در حال اجرا ممکن است از آن عبور کنند. با تغییر تاریخ محلی بازنشانی می‌شود.</string>
 </resources>

@@ -65,4 +65,10 @@
     <string name="mcp_cli_connection_check">دستور connect اتصال را بررسی می‌کند. درخواست موفق زمان بالا را به‌روز می‌کند.</string>
     <string name="mcp_history_title">اجازه به رایانه‌ها برای مشاهدهٔ تاریخچه</string>
     <string name="mcp_history_detail">رایانه‌های متصل می‌توانند همهٔ گفتگوها، سوابق اجرا و متن گزارش‌های ثبت‌شده، از جمله درخواست‌ها و پاسخ‌های مدل با اطلاعات پوشانده‌شده، را بخوانند. این تنظیم برای اتصال‌های USB و شبکهٔ خصوصی اعمال می‌شود.</string>
+    <string name="mcp_port_apply">اعمال</string>
+    <string name="mcp_port_custom">پورت</string>
+    <string name="mcp_port_default">پیش‌فرض (%1$d)</string>
+    <string name="mcp_port_dialog_sub">وقتی پورت پیش‌فرض توسط سرویس دیگری در این گوشی اشغال شده است، آن را تغییر دهید. بلافاصله اعمال می‌شود و رایانه روی پورت جدید دوباره متصل می‌شود.</string>
+    <string name="mcp_port_invalid">یک عدد صحیح از ۱۰۲۴ تا ۶۵۵۳۵ وارد کنید.</string>
+    <string name="mcp_port_title">پورت شنود</string>
 </resources>

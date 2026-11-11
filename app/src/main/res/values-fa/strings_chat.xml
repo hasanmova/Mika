@@ -8,10 +8,7 @@
     <string name="chat_empty_prompt">میکا چه کاری انجام دهد؟</string>
     <string name="chat_example_follow">ایکس را باز کن، وانگ زان (@wangzan101) را جست‌وجو کن و حساب او را دنبال کن.</string>
     <string name="chat_example_group_summary">واتساپ را باز کن و پیام‌های خوانده‌نشدهٔ امروز را خلاصه کن؛ مواردی را که به پاسخ من نیاز دارند مشخص کن.</string>
-    <string name="chat_example_jobs">لینکدین را باز کن، پنج فرصت شغلی دورکاری مدیریت محصول هوش مصنوعی پیدا کن و شرایط آن‌ها را مقایسه کن.</string>
-    <string name="chat_example_multi_step">سه هندزفری بی‌سیم با امتیاز بالا و قیمت کمتر از ۱۰۰ دلار در آمازون پیدا کن و مزایا و معایبشان را مقایسه کن.</string>
     <string name="chat_example_alarms">برای فردا صبح در ساعت‌های ۹:۴۰، ۹:۵۰ و ۱۰:۰۰ زنگ هشدار تنظیم کن.</string>
-    <string name="chat_example_ai_apps">برنامه‌های هوش مصنوعی نصب‌شده روی گوشی‌ام را پیدا کن، از هر کدام بپرس در چه کاری بهتر است و پاسخ‌هایشان را مقایسه کن.</string>
     <string name="chat_example_replace_title">پیش‌نویس فعلی جایگزین شود؟</string>
     <string name="chat_example_replace_body">این پیشنهاد جایگزین متنی می‌شود که تاکنون نوشته‌اید.</string>
     <string name="chat_example_replace_action">جایگزینی پیش‌نویس</string>
@@ -72,6 +69,35 @@
         <item quantity="one">%1$d کار زمان‌بندی‌شده در این گفتگو حفظ می‌شود.</item>
         <item quantity="other">%1$d کار زمان‌بندی‌شده در این گفتگو حفظ می‌شود.</item>
     </plurals>
+    <string name="drawer_select">انتخاب</string>
+    <string name="drawer_selected_count">%1$d مورد انتخاب شده</string>
+    <string name="drawer_select_all">انتخاب همه</string>
+    <string name="drawer_select_none">لغو انتخاب</string>
+    <string name="drawer_delete_many_title">گفتگوهای انتخاب‌شده حذف شوند؟</string>
+    <plurals name="drawer_delete_many_body">
+        <item quantity="one">%1$d گفتگوی انتخاب‌شده و فایل‌های داخل آن حذف می‌شود.</item>
+        <item quantity="other">%1$d گفتگوی انتخاب‌شده و فایل‌های داخلشان حذف می‌شوند.</item>
+    </plurals>
+    <plurals name="drawer_delete_many_running">
+        <item quantity="one">%1$d کار در حال اجرا متوقف می‌شود.</item>
+        <item quantity="other">%1$d کار در حال اجرا متوقف می‌شوند.</item>
+    </plurals>
+    <plurals name="drawer_delete_many_schedules">
+        <item quantity="one">%1$d کار زمان‌بندی‌شده در آن‌ها حفظ می‌شود.</item>
+        <item quantity="other">%1$d کار زمان‌بندی‌شده در آن‌ها حفظ می‌شود.</item>
+    </plurals>
+    <plurals name="drawer_delete_progress">
+        <item quantity="one">در حال حذف %1$d گفتگو…</item>
+        <item quantity="other">در حال حذف %1$d گفتگو…</item>
+    </plurals>
+    <plurals name="drawer_delete_done">
+        <item quantity="one">%1$d گفتگو حذف شد.</item>
+        <item quantity="other">%1$d گفتگو حذف شد.</item>
+    </plurals>
+    <plurals name="drawer_delete_partial">
+        <item quantity="one">%1$d گفتگو حذف شد، %2$d ناموفق بود.</item>
+        <item quantity="other">%1$d گفتگو حذف شد، %2$d ناموفق بود.</item>
+    </plurals>
     <string name="drawer_actions">گزینه‌های گفتگو</string>
     <string name="drawer_rename">تغییر نام</string>
     <string name="drawer_rename_title">تغییر نام گفتگو</string>
@@ -103,6 +129,7 @@
     </plurals>
     <string name="attach_add">افزودن پیوست</string>
     <string name="attach_close">بستن بخش پیوست‌ها</string>
+    <string name="attach_blocked_running">هنگام اجرای کار نمی‌توان پیوست اضافه کرد — ابتدا به حالت صف بروید</string>
     <string name="attach_camera">دوربین</string>
     <string name="attach_album">عکس‌ها</string>
     <string name="attach_files">فایل‌ها</string>
@@ -182,4 +209,41 @@
     <string name="chat_placeholder_queue">کار بعدی را بنویسید…</string>
     <string name="voice_placeholder_queue">کار بعدی را بگویید…</string>
     <string name="steer_received_paused">متوجه شدم؛ هنگام ادامهٔ کار اعمال می‌شود</string>
+    <string name="chat_example_github_star">نشانی https://github.com/wangzan101/mika را باز کن و به پروژه ستاره بده.</string>
+    <string name="drawer_search_clear">پاک کردن جست‌وجو</string>
+    <string name="drawer_search_empty">هیچ گفتگویی با «%1$s» مطابقت ندارد</string>
+    <string name="drawer_search_empty_hint">در عنوان‌ها و متن گفتگوها جست‌وجو می‌کند</string>
+    <string name="drawer_search_hint">جست‌وجو در گفتگوها</string>
+    <string name="drawer_search_results">نتایج جست‌وجو</string>
+    <string name="drawer_search_truncated">نمایش اولین %1$d نتیجه</string>
+    <string name="drawer_searching">در حال جست‌وجو…</string>
+    <string name="recommendations_add">افزودن کار پیشنهادی</string>
+    <string name="recommendations_delete">حذف</string>
+    <string name="recommendations_delete_body">دیگر در صفحهٔ اصلی نمایش داده نمی‌شود.</string>
+    <string name="recommendations_delete_title">این کار پیشنهادی حذف شود؟</string>
+    <string name="recommendations_edit">ویرایش کار پیشنهادی</string>
+    <string name="recommendations_empty">کار پیشنهادی وجود ندارد</string>
+    <string name="recommendations_empty_sub">کارهای افزوده‌شده در گفتگوی جدید نمایش داده می‌شوند</string>
+    <string name="recommendations_footer">در گفتگوی جدید، روی یک کار بزنید تا متن آن در ورودی قرار گیرد. به‌صورت خودکار ارسال نمی‌شود.</string>
+    <string name="recommendations_prompt_label">متن</string>
+    <string name="recommendations_prompt_required">متنی وارد کنید</string>
+    <string name="recommendations_reset">پاک کردن و شروع دوباره</string>
+    <string name="recommendations_reset_body">فایل غیرقابل‌خواندن با یک فهرست خالی جایگزین می‌شود.</string>
+    <string name="recommendations_save_failed">ذخیره ممکن نشد. دوباره تلاش کنید.</string>
+    <string name="recommendations_sub">مدیریت کارها و متن‌های صفحهٔ اصلی</string>
+    <string name="recommendations_title">کارهای پیشنهادی</string>
+    <string name="recommendations_drag">برای تغییر ترتیب بکشید</string>
+    <string name="recommendations_drag_hint">دستگیره را بکشید تا ترتیب نمایش تغییر کند.</string>
+    <string name="recommendations_move_up">انتقال به بالا</string>
+    <string name="recommendations_move_down">انتقال به پایین</string>
+    <string name="recommendations_title_label">عنوان</string>
+    <string name="recommendations_title_required">عنوانی وارد کنید</string>
+    <string name="recommendations_too_long">عنوان یا متن بیش از حد طولانی است</string>
+    <string name="recommendations_too_many">می‌توانید حداکثر %1$d کار پیشنهادی ذخیره کنید</string>
+    <string name="recommendations_unreadable">کارهای پیشنهادی ذخیره‌شده خوانده نشدند، بنابراین فعلاً قابل تغییر نیستند.</string>
+    <string name="share_draft_replace_body">این محتوای به‌اشتراک‌گذاشته‌شده جایگزین پیش‌نویس فعلی شما می‌شود.</string>
+    <string name="chat_attach_unavailable">افزودن ممکن نشد: %1$s. بررسی کنید فایل‌ها در دسترس و در محدودهٔ حجم باشند.</string>
+    <string name="chat_retry_missing">%1$s: فایل موجود نیست</string>
+    <string name="chat_retry_limit">%1$s: به سقف کپی رسید</string>
+    <string name="chat_retry_failed">%1$s: کپی ممکن نشد</string>
 </resources>
